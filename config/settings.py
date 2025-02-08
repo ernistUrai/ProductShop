@@ -43,6 +43,8 @@ PROJECT_APPS = [
 
 INSTALLED_APPS = DJANGO_APPS + PROJECT_APPS
 
+# AUTH_USER_MODEL = 'users.Profile'
+
 AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend',               
     'allauth.account.auth_backends.AuthenticationBackend',
